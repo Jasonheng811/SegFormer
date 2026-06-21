@@ -4,9 +4,12 @@
 # Paddy Leaf Disease Segmentation — SegFormer / MMSegmentation Framework
 
 Final Year Project (Bachelor of Electrical Engineering, Universiti Malaya).
-Transformer-based **semantic segmentation of paddy (rice) leaf diseases**, built on top of the
-[SegFormer](https://github.com/NVlabs/SegFormer) architecture and the
-[MMSegmentation](https://github.com/open-mmlab/mmsegmentation/tree/v0.13.0) framework.
+Transformer-based **semantic segmentation of paddy (rice) leaf diseases**. The project
+benchmarks **several transformer-based segmentation architectures** (SegFormer and other
+ViT- / hierarchical-transformer segmentation models) as baselines, with
+[SegFormer](https://github.com/NVlabs/SegFormer) on the
+[MMSegmentation](https://github.com/open-mmlab/mmsegmentation/tree/v0.13.0) framework as the
+primary backbone.
 
 > **Scope of this repository.** This public repo contains the open-source **SegFormer /
 > MMSegmentation training & evaluation framework** that the project is built on. The project's
@@ -18,8 +21,10 @@ Transformer-based **semantic segmentation of paddy (rice) leaf diseases**, built
 ## About the project
 
 - **Author:** Heng Zi Xuan
+- **Supervisor:** Professor Ir. Dr Norrima Binti Mokhtar
 - **Programme:** B. Eng. (Electrical), Universiti Malaya
-- **Domain:** Semantic segmentation of paddy leaf disease lesions using transformer-based encoders
+- **Domain:** Semantic segmentation of paddy leaf disease lesions, benchmarking multiple
+  transformer-based segmentation architectures
 - **Foundation:** [SegFormer (NVlabs, NeurIPS 2021)](https://arxiv.org/abs/2105.15203) on
   [MMSegmentation v0.13.0](https://github.com/open-mmlab/mmsegmentation/tree/v0.13.0)
 
